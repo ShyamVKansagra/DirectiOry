@@ -57,9 +57,19 @@ body {
 
 .relpos {
 	position: relative;
+
 }
 
 .imgabs {
 	position: absolute;
-	float: left bottom -10px;
+	float: left top 10px;
 }
+
+.verticalLine {
+  border-left: thin solid;
+}
+
+.s1 { 
+  box-shadow: 0 50px 50px -50px #333;
+}
+
